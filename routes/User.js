@@ -12,7 +12,7 @@ import {
   updateProfile,
   updateTask,
   verify,
-} from "../controllers/user.js";
+} from "../controllers/User.js";
 import { isAuthenticated } from "../middleware/auth.js";
 const router = express.Router();
 router.route("/register").post(register);
