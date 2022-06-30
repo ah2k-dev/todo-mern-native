@@ -16,3 +16,7 @@ app.use(
 );
 app.use(cors())
 app.use("/api", User);
+
+app.get("/",(req,res)=>{
+    res.send("Server is working")
+})
